@@ -1,15 +1,10 @@
-
 import java.io.File;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.InetAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.util.Scanner;
 
-/**
- * Created by webonise on 13/9/16.
- */
 public class HttpServer implements Server {
 
     boolean isRunning = false;

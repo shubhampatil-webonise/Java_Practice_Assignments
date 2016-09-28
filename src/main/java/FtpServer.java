@@ -1,6 +1,4 @@
-/**
- * Created by webonise on 13/9/16.
- */
+
 public class FtpServer implements Server {
 
     boolean isRunning = false;
@@ -12,11 +10,11 @@ public class FtpServer implements Server {
 
     @Override
     public void startServerAndListenForRequests() {
-
+        System.out.println("Starting FTP server.");
     }
 
     @Override
     public void stopServer() {
-
+        System.out.println("Stoping FTP server.");
     }
 }

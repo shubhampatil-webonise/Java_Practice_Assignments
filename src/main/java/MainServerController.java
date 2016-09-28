@@ -1,8 +1,5 @@
 import java.util.Scanner;
 
-/**
- * Created by webonise on 13/9/16.
- */
 public class MainServerController {
     public static void main(String args[]){
         System.out.println("Welcome to ServerHub");
